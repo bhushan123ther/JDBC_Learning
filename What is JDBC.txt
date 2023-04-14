@@ -1,0 +1,6 @@
+=> What is JDBC ?
+- JDBC – Java Database Connectivity – is an API which is used by the Java applications to interact with the database management systems.
+-  It consists of several classes and interfaces – written entirely in Java – which can be used to establish connection with the database, send the queries to the database and process the results returned by the database.
+- It is kind of translator.
+- JDBC API makes Java application independent of the database it uses.
+- If your application is using JDBC API, then you can easily switch from one database to another without much changes in your code.

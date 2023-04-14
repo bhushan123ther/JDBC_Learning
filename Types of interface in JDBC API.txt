@@ -1,0 +1,21 @@
+=> Statement
+- It is used to execute nomal SQL queries.
+- It is prefered when a particular SQL query is to be executed only once.
+- You can not pass the parameters to SQL query using this interface.
+- This interface is mainly used for DDL statements like CREATE,ALTER,DROP etc.
+- The performance of this interface is very low.
+
+=> PreparedStatement
+- It is used to execute parameterized or dynamic SQL queries.
+- It is prefered when a particular query is to be executed multiple times.
+- You can pass parameters to SQL query at run time using this interface.
+- It is used for any kind of SQL queries which are to be executed multiple times.
+- The performance of this interface is better than the Statement interface.
+
+=> CallableStatment
+- It is used to call the stored procedure.
+- It is preferred when the stored procedures are to be executed.
+- You can pass 3 types of parameters using this interface.
+  They are - IN, OUT and INOUT.
+- It is used to execute stored procedures and functions.
+- The performance of this interface is high.
